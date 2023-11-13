@@ -60,7 +60,7 @@ public class Main {
               System.out.println("\nUsuario cadastrado! \n");
               System.out.println("Nome do usuario: " + nome);
               System.out.println("Email: " + email);
-              System.out.println("Identificador (ID): " + usuario.getUsuarioById());
+              System.out.println("Identificador: " + usuario.getUsuarioById());
 
             } catch (Exception e) {
               System.out.println("Erro: " + e.getMessage());
