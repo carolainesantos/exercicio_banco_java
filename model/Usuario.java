@@ -136,7 +136,7 @@ public class Usuario {
 
       int resultado = query.executeUpdate();
       conexao.close();
-      // Se ele alterar um usuário vai RETORNAR um então entra
+      // Se ele alterar um usuário vai retornar um então entra
       if(resultado > 0) {
         return true;
       }
